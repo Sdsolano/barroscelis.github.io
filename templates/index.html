@@ -1,0 +1,813 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+    <head>
+        <!-- Meta Tags -->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="keywords" content="Site keywords here">
+		<meta name="description" content="">
+		<meta name='copyright' content=''>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<!-- Title -->
+        <title>DoctoresBarrosCelis</title>
+		
+		<!-- Favicon -->
+        <link rel="icon" href="/static/img/favicon.png">
+		
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="/static/css/bootstrap.min.css">
+		<!-- Nice Select CSS -->
+		<link rel="stylesheet" href="/static/css/nice-select.css">
+		<!-- Font Awesome CSS -->
+        <link rel="stylesheet" href="/static/css/font-awesome.min.css">
+		<!-- icofont CSS -->
+        <link rel="stylesheet" href="/static/css/icofont.css">
+		<!-- Slicknav -->
+		<link rel="stylesheet" href="/static/css/slicknav.min.css">
+		<!-- Owl Carousel CSS -->
+        <link rel="stylesheet" href="/static/css/owl-carousel.css">
+		<!-- Datepicker CSS -->
+		<link rel="stylesheet" href="/static/css/datepicker.css">
+		<!-- Magnific Popup CSS -->
+        <link rel="stylesheet" href="/static/css/magnific-popup.css">
+		
+		<!-- Medipro CSS -->
+        <link rel="stylesheet" href="/static/css/normalize.css">
+        <link rel="stylesheet" href="/static/css/style.css">
+        <link rel="stylesheet" href="/static/css/responsive.css">
+		
+    </head>
+    <body>
+	
+		<!-- Preloader -->
+        <div class="preloader">
+            <div class="loader">
+                <div class="loader-outter"></div>
+                <div class="loader-inner"></div>
+
+                <div class="indicator"> 
+                    <svg width="16px" height="12px">
+                        <polyline id="back" points="1 6 4 6 6 11 10 1 12 6 15 6"></polyline>
+                        <polyline id="front" points="1 6 4 6 6 11 10 1 12 6 15 6"></polyline>
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <!-- End Preloader -->
+
+		
+	
+		<!-- Header Area -->
+		<header class="header" >
+			<!-- Topbar -->
+			<div class="topbar">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6 col-md-5 col-12">
+							<!-- Contact -->
+							<ul class="top-link">
+								<li><a id="sobrenosotros" href="#">Sobre nosotros</a></li>
+								<script>
+									document.getElementById("sobrenosotros").addEventListener("click", function(event){
+										event.preventDefault();
+										document.getElementById("quienessomos").scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+									});
+								</script>
+								<li><a href="portfolio-details.html">Doctores</a></li>
+								
+								
+							</ul>
+							<!-- End Contact -->
+						</div>
+						<div class="col-lg-6 col-md-7 col-12">
+							<!-- Top Contact -->
+							<ul class="top-contact">
+								<li><i class="icofont-brand-whatsapp"  target="_blank"></i><a href="https://api.whatsapp.com/send?phone=573017601853&text=Hola%20me%20gustaria%20agendar%20una%20cita%20con%20ustedes" target="_blank">+57 301 7601853</a></li>
+								<li><i class="fa fa-envelope"></i><a href="mailto:doctoresbarroscelis@gmail.com" target="_blank">doctoresbarroscelis@gmail.com</a></li>
+							</ul>
+							<!-- End Top Contact -->
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End Topbar -->
+			<!-- Header Inner -->
+			<div class="header-inner">
+				<div class="container">
+					<div class="inner">
+						<div class="row">
+							<div class="col-lg-3 col-md-3 col-12">
+								<!-- Start Logo -->
+								<div class="logo">
+									<a href="/static/index.html"><img src="/static/img/logo.png" alt="#"></a>
+								</div>
+								<!-- End Logo -->
+								<!-- Mobile Nav -->
+								<div class="mobile-nav"></div>
+								<!-- End Mobile Nav -->
+							</div>
+							<div class="col-lg-7 col-md-9 col-12">
+								<!-- Main Menu -->
+								<div class="main-menu">
+									<nav class="navigation">
+										<ul class="nav menu">
+											<li class="active"><a href="index.html">Home</a>
+											</li>
+											<li><a href="portfolio-details.html">Doctores </a></li>
+											
+											<li><a href="contact.html">Contactanos</a></li>
+										</ul>
+									</nav>
+								</div>
+								<!--/ End Main Menu -->
+							</div>
+							<div class="col-lg-2 col-12">
+								<div class="get-quote">
+									<a href="#" class="btn" id="scrollToBottom">Agenda tu cita</a>
+									
+									<script>
+										document.getElementById("scrollToBottom").addEventListener("click", function(event){
+											event.preventDefault();
+											document.getElementById("cita").scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+										});
+									</script>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--/ End Header Inner -->
+		</header>
+		<!-- End Header Area -->
+		
+		<!-- Slider Area -->
+		<section class="slider">
+			<div class="hero-slider">
+				<!-- Start Single Slider -->
+				<div class="single-slider" style="background-image:url('/static/img/slider2.jpg')">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-7">
+								<div class="text">
+									<h1>Proporcionamos <span>Servicios</span> Odontológicos en los que puedes <span>confiar!</span></h1>
+									<p>.</p>
+									<div class="button">
+										<a href="agendacita.html" class="btn">Agendar Cita</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- End Single Slider -->
+				<!-- Start Single Slider -->
+				<div class="single-slider" style="background-image:url('/static/img/slider.jpg')">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-7">
+								<div class="text">
+									<h1>Proporcionamos <span>Servicios</span> Odontológicos en los que puedes <span>confiar!</span></h1>
+									<p>.</p>
+									<div class="button">
+										<a href="agendacita.html" class="btn">Agendar Cita</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Start End Slider -->
+				<!-- Start Single Slider -->
+				<div class="single-slider" style="background-image:url('/static/img/slider3.jpg')">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-7">
+								<div class="text">
+									<h1>Proporcionamos <span>Servicios</span> Odontológicos en los que puedes <span>confiar!</span></h1>
+									<p>.</p>
+									<div class="button">
+										<a href="agendacita.html" class="btn">Agendar Cita</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- End Single Slider -->
+			</div>
+		</section>
+		<!--/ End Slider Area -->
+		
+		<!-- Start Schedule Area -->
+		<section class="schedule">
+			<div class="container">
+				<div class="schedule-inner">
+					<div class="row">
+						<div class="col-lg-4 col-md-6 col-12 ">
+							<!-- single-schedule -->
+							<div class="single-schedule first">
+								<div class="inner">
+									<div class="icon">
+										<i class="icofont-tooth"></i>
+									</div>
+									<div class="single-content">
+										<span>Adriana Celis</span>
+										<h4>Odontología estética</h4>
+										<p>.</p>
+										<a href="portfolio-details.html">Leer más<i class="fa fa-long-arrow-right"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6 col-12">
+							<!-- single-schedule -->
+							<div class="single-schedule middle">
+								<div class="inner">
+									<div class="icon">
+										<i class="icofont-tooth"></i>
+									</div>
+									<div class="single-content">
+										<span>Luis Barros</span>
+										<h4>Especialista en Ortodoncia</h4>
+										<p>.</p>
+										<a href="portfolio-details.html">Leer más<i class="fa fa-long-arrow-right"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-12 col-12">
+							<!-- single-schedule -->
+							<div class="single-schedule last">
+								<div class="inner">
+									<div class="icon">
+										<i class="icofont-ui-clock"></i>
+									</div>
+									<div class="single-content">
+										<span>Horarios</span>
+										<h4>Nuestro Horario</h4>
+										<ul class="time-sidual">
+											<li class="day">Lunes - Viernes <span>7.00-18.00</span></li>
+											<li class="day">Sabados <span>7.00-14.30</span></li>
+											
+										</ul>
+										
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--/End Start schedule Area -->
+
+		<!-- Start Feautes -->
+		<section class="Feautes section">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="section-title">
+							<h2>Siempre preparados para ayudarte a ti y a tu familia</h2>
+							<img src="/static/img/section-img.png" alt="#">
+							<p>.</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-4 col-12">
+						<!-- Start Single features -->
+						<div class="single-features">
+							<div class="signle-icon">
+								<i class="icofont icofont-ambulance-cross"></i>
+							</div>
+							<h3>Atención virtual de emergencia</h3>
+							<p></p>
+						</div>
+						<!-- End Single features -->
+					</div>
+					<div class="col-lg-4 col-12">
+						<!-- Start Single features -->
+						<div class="single-features">
+							<div class="signle-icon">
+								<i class="icofont icofont-medical-sign-alt"></i>
+							</div>
+							<h3>Diferentes especialidades</h3>
+							<p>.</p>
+						</div>
+						<!-- End Single features -->
+					</div>
+					<div class="col-lg-4 col-12">
+						<!-- Start Single features -->
+						<div class="single-features last">
+							<div class="signle-icon">
+								<i class="icofont icofont-stethoscope"></i>
+							</div>
+							<h3>Tratamientos grantizados</h3>
+							<p>.</p>
+						</div>
+						<!-- End Single features -->
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--/ End Feautes -->
+		
+		<!-- Start Fun-facts -->
+		<div id="fun-facts" class="fun-facts section overlay">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-md-6 col-12">
+						<!-- Start Single Fun -->
+						<div class="single-fun">
+							<i class="icofont icofont-home"></i>
+							<div class="content">
+								<span class="counter">3468</span>
+								<p>Familias atendidas</p>
+							</div>
+						</div>
+						<!-- End Single Fun -->
+					</div>
+					<div class="col-lg-3 col-md-6 col-12">
+						<!-- Start Single Fun -->
+						<div class="single-fun">
+							<i class="icofont icofont-user-alt-3"></i>
+							<div class="content">
+								<span class="counter">7</span>
+								<p>Doctores especialisas</p>
+							</div>
+						</div>
+						<!-- End Single Fun -->
+					</div>
+					<div class="col-lg-3 col-md-6 col-12">
+						<!-- Start Single Fun -->
+						<div class="single-fun">
+							<i class="icofont-simple-smile"></i>
+							<div class="content">
+								<span class="counter">4379</span>
+								<p>Pacientes felices</p>
+							</div>
+						</div>
+						<!-- End Single Fun -->
+					</div>
+					<div class="col-lg-3 col-md-6 col-12">
+						<!-- Start Single Fun -->
+						<div class="single-fun">
+							<i class="icofont icofont-table"></i>
+							<div class="content">
+								<span class="counter">22</span>
+								<p>Años de experiencia</p>
+							</div>
+						</div>
+						<!-- End Single Fun -->
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--/ End Fun-facts -->
+		
+		<!-- Start Why choose -->
+		<section class="why-choose section" id="quienessomos">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="section-title">
+							<h2>Ofrecemos diferentes servicios para mejorar tu salud</h2>
+							<img src="/static/img/section-img.png" alt="#">
+							<p>.</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-6 col-12">
+						<!-- Start Choose Left -->
+						<div class="choose-left">
+							<h3>Quienes Somos</h3>
+							<p>. </p>
+							<p>. </p>
+							<div class="row">
+								<div class="col-lg-6">
+									<ul class="list">
+										<li><i class="fa fa-caret-right"></i>Video paciente</li>
+										<li><i class="fa fa-caret-right"></i>lo mismo</li>
+										<li><i class="fa fa-caret-right"></i>Lo mismo</li>
+									</ul>
+								</div>
+								<div class="col-lg-6">
+									<ul class="list">
+										<li><i class="fa fa-caret-right"></i>Foto paciente</li>
+										<li><i class="fa fa-caret-right"></i>Lo mismo</li>
+										<li><i class="fa fa-caret-right"></i>Lo mismo</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<!-- End Choose Left -->
+					</div>
+					<div class="col-lg-6 col-12">
+						<!-- Start Choose Rights -->
+						<div class="choose-right">
+							<div class="video-image">
+								<!-- Video Animation -->
+								<div class="promo-video">
+									<div class="waves-block">
+										<div class="waves wave-1"></div>
+										<div class="waves wave-2"></div>
+										<div class="waves wave-3"></div>
+									</div>
+								</div>
+								<!--/ End Video Animation -->
+								<script>
+									$(document).ready(function() {
+										$('.vide-popup').magnificPopup({
+											type: 'iframe'
+										});
+									});
+								</script>
+								<a href="https://youtube.com/shorts/28yYc8fY6xw" class="video vide-popup mfp-iframe" target="_blank"><i class="fa fa-play"></i></a>
+							</div>
+						</div>
+						<!-- End Choose Rights -->
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Start service -->
+		<section class="services section">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="section-title">
+							<h2>Nuestros servicios</h2>
+							<img src="/static/img/section-img.png" alt="#">
+							<p>.</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-4 col-md-6 col-12">
+						<!-- Start Single Service -->
+						<div class="single-service">
+							<i class="icofont icofont-tooth"></i>
+							<h4><a href="#">Consulta</a></h4>
+							<p>. </p>	
+						</div>
+						<!-- End Single Service -->
+					</div>
+					<div class="col-lg-4 col-md-6 col-12">
+						<!-- Start Single Service -->
+						<div class="single-service">
+							<i class="icofont icofont-tooth"></i>
+							<h4><a href="#">Aclaramiento dental</a></h4>
+							<p> </p>	
+						</div>
+						<!-- End Single Service -->
+					</div>
+					<div class="col-lg-4 col-md-6 col-12">
+						<!-- Start Single Service -->
+						<div class="single-service">
+							<i class="icofont icofont-tooth"></i>
+							<h4><a href="#">Periodoncia</a></h4>
+							<p>. </p>	
+						</div>
+						<!-- End Single Service -->
+					</div>
+					<div class="col-lg-4 col-md-6 col-12">
+						<!-- Start Single Service -->
+						<div class="single-service">
+							<i class="icofont icofont-tooth"></i>
+							<h4><a href="#">Ortodoncia</a></h4>
+							<p>. </p>	
+						</div>
+						<!-- End Single Service -->
+					</div>
+					<div class="col-lg-4 col-md-6 col-12">
+						<!-- Start Single Service -->
+						<div class="single-service">
+							<i class="icofont icofont-tooth"></i>
+							<h4><a href="#">Ortopedia maxilar</a></h4>
+							<p>. </p>	
+						</div>
+						<!-- End Single Service -->
+					</div>
+					<div class="col-lg-4 col-md-6 col-12">
+						<!-- Start Single Service -->
+						<div class="single-service">
+							<i class="icofont icofont-tooth"></i>
+							<h4><a href="#">Rehabilitación oral</a></h4>
+							<p>. </p>	
+						</div>
+						<!-- End Single Service -->
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--/ End service -->
+		
+		<!-- Pricing Table -->
+		<section class="pricing-table section">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="section-title">
+							<h2>Los mejores tratamientos a los mejores precios</h2>
+							<img src="/static/img/section-img.png" alt="#">
+							<p>.</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<!-- Single Table -->
+					<div class="col-lg-4 col-md-12 col-12">
+						<div class="single-table">
+							<!-- Table Head -->
+							<div class="table-head">
+								<div class="icon">
+									<i class="icofont icofont-tooth"></i>
+								</div>
+								<h4 class="title">Tratamiento Ortodoncia</h4>
+								<div class="price">
+									<p class="amount">$99.900<span>/ Por vista</span></p>
+								</div>	
+							</div>
+							<!-- Table List -->
+							<ul class="table-list">
+								<li><i class="icofont icofont-ui-check"></i>Brakets inteligentes</li>
+								<li><i class="icofont icofont-ui-check"></i>Arcos termoactivados</li>
+								<li><i class="icofont icofont-ui-check"></i>Resultados rápidos</li>
+								<li class="cross"><i class="icofont icofont-ui-close"></i>incluye</li>
+								<li class="cross"><i class="icofont icofont-ui-close"></i>incluye</li>
+							</ul>
+							
+							<!-- Table Bottom -->
+						</div>
+					</div>
+					<!-- End Single Table-->
+					<!-- Single Table -->
+					<div class="col-lg-4 col-md-12 col-12">
+						<div class="single-table">
+							<!-- Table Head -->
+							<div class="table-head">
+								<div class="icon">
+									<i class="icofont icofont-tooth"></i>
+								</div>
+								<h4 class="title">Aclaramiento dental láser</h4>
+								<div class="price">
+									<p class="amount">$499.000</p>
+								</div>	
+							</div>
+							<!-- Table List -->
+							<ul class="table-list">
+								<li><i class="icofont icofont-ui-check"></i>Resultados naturales</li>
+								<li><i class="icofont icofont-ui-check"></i>No daña el esmalte dental</li>
+								<li class="cross"><i class="icofont icofont-ui-close"></i>Dolor</li>
+							</ul>
+								<!-- Table Bottom -->
+						</div>
+					</div>
+					<!-- End Single Table-->
+					<!-- Single Table -->
+					<div class="col-lg-4 col-md-12 col-12">
+						<div class="single-table">
+							<!-- Table Head -->
+							<div class="table-head">
+								<div class="icon">
+									<i class="icofont icofont-tooth"></i>
+								</div>
+								<h4 class="title">Coronas libres de metal</h4>
+								<div class="price">
+									<p class="amount">$1.999.000</p>
+								</div>	
+							</div>
+							<!-- Table List -->
+							<ul class="table-list">
+								<li><i class="icofont icofont-ui-check"></i>Corona de alta calidad</li>
+								<li><i class="icofont icofont-ui-check"></i>Incluye Provisional</li>
+								<li><i class="icofont icofont-ui-check"></i>Zirconio</li>
+								<li><i class="icofont icofont-ui-check"></i>Disilicato de litio</li>
+							</ul>
+							<!-- Table Bottom -->
+						</div>
+					</div>
+					<!-- End Single Table-->
+				</div>	
+			</div>	
+		</section>	
+
+		
+		<!-- Start Appointment -->
+		<section class="appointment" id="cita">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="section-title">
+							<h2>Estamos siempre listos para ayudarte. Agenda tu cita</h2>
+							<img src="/static/img/section-img.png" alt="#">
+							<p>.</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-6 col-md-12 col-12">
+						<form class="form" action="#">
+							<div class="row">
+								<div class="col-lg-6 col-md-6 col-12">
+									<div class="form-group">
+										<input name="name" type="text" placeholder="Nombre">
+									</div>
+								</div>
+								<div class="col-lg-6 col-md-6 col-12">
+									<div class="form-group">
+										<input name="email" type="email" placeholder="Correo">
+									</div>
+								</div>
+								<div class="col-lg-6 col-md-6 col-12">
+									<div class="form-group">
+										<input name="phone" type="text" placeholder="Numero de telefono">
+									</div>
+								</div>
+								<div class="col-lg-6 col-md-6 col-12">
+									<div class="form-group">
+										<div class="nice-select form-control wide" tabindex="0"><span class="current">Especialidad</span>
+											<ul class="list">
+												<li data-value="1" class="option selected ">Especialidad</li>
+												<li data-value="2" class="option">Ortodoncia</li>
+												<li data-value="3" class="option">Odontolodia</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<!-- BEGIN: ed8c6549bwf9
+																<div class="col-lg-6 col-md-6 col-12">
+																	<div class="form-group">
+																		<div class="nice-select form-control wide" tabindex="0"><span class="current">Doctor</span>
+																			<ul class="list">
+																				<li data-value="1" class="option selected ">Doctor</li>
+																				<li data-value="2" class="option">Dr. Luis Barros</li>
+																				<li data-value="3" class="option">Dra. Adriana Celis</li>
+																			</ul>
+																		</div>
+																	</div>
+																</div>
+								END: ed8c6549bwf9 -->
+								<div class="col-lg-6 col-md-6 col-12">
+									<div class="form-group">
+										<input type="text" placeholder="Fecha" id="datepicker">
+									</div>
+								</div>
+								<div class="col-lg-12 col-md-12 col-12">
+									<div class="form-group">
+										<textarea name="message/observacion" placeholder="Escribe tu mensaje/observacion....."></textarea>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-5 col-md-4 col-12">
+									<div class="form-group">
+										<div class="button">
+											<a class="btn" id="agendacitabtn" onclick="agendarcita()" href="#" target="_blank" style="color: white;">Agenda tu cita</a>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-7 col-md-8 col-12">
+									<p>( Te confirmaremos por whatsapp )</p>
+								</div>
+							</div>
+						</div>
+
+						</form>
+						
+						<script>
+							// Get the WhatsApp button element
+							const whatsappBtn = document.getElementById('agendacitabtn');
+
+							// Add event listener to the form submit event
+							function agendarcita() {
+								// Get the form element
+								const form = document.querySelector('.form');
+
+								// Check if form exists
+								if (form) {
+									const nameInput = form.querySelector('input[name="name"]');
+									const emailInput = form.querySelector('input[name="email"]');
+									const phoneInput = form.querySelector('input[name="phone"]');
+									const especialidadSelect = form.querySelector('div.nice-select span.current');
+									const fechaInput = form.querySelector('input#datepicker');
+									const messageInput = form.querySelector('textarea[name="message/observacion"]');
+
+									// Check if all form elements exist
+									if (nameInput && emailInput && phoneInput && especialidadSelect  && fechaInput && messageInput) {
+										const name = nameInput.value;
+										const email = emailInput.value;
+										const phone = phoneInput.value;
+										const especialidad = especialidadSelect.textContent;
+										const fecha = fechaInput.value;
+										const message = messageInput.value;
+
+										const whatsappMessage = `Hola, me gustaría agendar una cita con ustedes.%0A%0AInformación de contacto: %0ANombre: ${name}%0ACorreo: ${email}%0ANúmero de teléfono: ${phone}%0AEspecialidad: ${especialidad}%0AEl día: ${fecha}%0A observacion: ${message}`;
+
+										// Update the href attribute of the WhatsApp button
+										whatsappBtn.href = `https://api.whatsapp.com/send?phone=573017601853&text=${whatsappMessage}`;
+
+										// Open WhatsApp in a new tab
+										window.open(whatsappBtn.href, '_blank');
+									}
+								}
+							};
+							</script>
+					<div class="col-lg-6 col-md-12 ">
+						<div class="appointment-image">
+							<img src="/static/img/contact-img.jpeg" alt="#">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Appointment -->
+		
+		<!-- Footer Area -->
+		<footer id="footer" class="footer ">
+			<!-- Footer Top -->
+			<div class="footer-top">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-3 col-md-6 col-12">
+							<div class="single-footer">
+								<h2>Sobre nosotros</h2>
+								<p>.</p>
+								<!-- Social -->
+								<ul class="social">
+									<li><a href="#"><i class="icofont-facebook"></i></a></li>
+									<li><a href="#"><i class="icofont-instagram"></i></a></li>
+								</ul>
+								<!-- End Social -->
+							</div>
+						</div>
+						
+						<div class="col-lg-3 col-md-6 col-12">
+							<div class="single-footer">
+								<h2>Nuestro Horario</h2>
+								<p>.</p>
+								<ul class="time-sidual">
+									<li class="day">Lunes - Viernes <span>7.00-18.00</span></li>
+									<li class="day">Sabados <span>7.00-14.30</span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--/ End Footer Top -->
+			<!-- Copyright -->
+
+			<!--/ End Copyright -->
+		</footer>
+		<!--/ End Footer Area -->
+		
+		<!-- jquery Min JS -->
+        <script src="/static/js/jquery.min.js"></script>
+		<!-- jquery Migrate JS -->
+		<script src="/static/js/jquery-migrate-3.0.0.js"></script>
+		<!-- jquery Ui JS -->
+		<script src="/static/js/jquery-ui.min.js"></script>
+		<!-- Easing JS -->
+        <script src="/static/js/easing.js"></script>
+		<!-- Color JS -->
+		<script src="/static/js/colors.js"></script>
+		<!-- Popper JS -->
+		<script src="/static/js/popper.min.js"></script>
+		<!-- Bootstrap Datepicker JS -->
+		<script src="/static/js/bootstrap-datepicker.js"></script>
+		<!-- Jquery Nav JS -->
+        <script src="/static/js/jquery.nav.js"></script>
+		<!-- Slicknav JS -->
+		<script src="/static/js/slicknav.min.js"></script>
+		<!-- ScrollUp JS -->
+        <script src="/static/js/jquery.scrollUp.min.js"></script>
+		<!-- Niceselect JS -->
+		<script src="/static/js/niceselect.js"></script>
+		<!-- Tilt Jquery JS -->
+		<script src="/static/js/tilt.jquery.min.js"></script>
+		<!-- Owl Carousel JS -->
+        <script src="/static/js/owl-carousel.js"></script>
+		<!-- counterup JS -->
+		<script src="/static/js/jquery.counterup.min.js"></script>
+		<!-- Steller JS -->
+		<script src="/static/js/steller.js"></script>
+		<!-- Wow JS -->
+		<script src="/static/js/wow.min.js"></script>
+		<!-- Magnific Popup JS -->
+		<script src="/static/js/jquery.magnific-popup.min.js"></script>
+		<!-- Counter Up CDN JS -->
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+		<!-- Bootstrap JS -->
+		<script src="/static/js/bootstrap.min.js"></script>
+		<!-- Main JS -->
+		<script src="/static/js/main.js"></script>
+    </body>
+</html>

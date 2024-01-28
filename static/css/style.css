@@ -904,7 +904,7 @@ body{
 	padding:120px 0;
 }
 .fun-facts{
-	background:url('./static/img/fun-bg.jpg');
+	background:url('/static/img/fun-bg.jpg');
 	background-size:cover;
 	background-repeat:no-repeat;
 }

@@ -214,15 +214,23 @@
 						method="POST"
 						class="form"
 						>
-							<label>
-								Your email:
-								<input type="email" name="email">
-							</label>
-							<label>
-								Your message:
-								<textarea name="message"></textarea>
-							</label>
-							<!-- your other form fields go here -->
+						<div class="row">
+							<div class="col-lg-6 col-md-6 col-12">
+								<div class="form-group">
+									<input name="name" type="text" placeholder="Nombre">
+								</div>
+							</div>
+							<div class="col-lg-6 col-md-6 col-12">
+								<div class="form-group">
+									<input name="email" type="email" placeholder="Correo">
+								</div>
+							</div>
+							<div class="col-lg-6 col-md-6 col-12">
+								<div class="form-group">
+									<input name="phone" type="text" placeholder="Numero de telefono">
+								</div>
+							</div>
+						</div>
 							<button type="submit">Send</button>
 						</form>
 
